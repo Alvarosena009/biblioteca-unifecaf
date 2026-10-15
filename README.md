@@ -133,6 +133,9 @@ senha ou token nos comandos, arquivos do projeto ou repositório.
 O workflow em `.github/workflows/pages.yml` publica automaticamente o site a cada
 envio para a branch `main`. A primeira execução requer que uma pessoa com acesso
 de administrador ative **GitHub Actions** como fonte na configuração **Pages**.
+Depois de selecionar essa fonte, um novo envio para `main` inicia a publicação.
+Se alguma execução anterior falhou antes de ativar o Pages, abra a aba **Actions**
+e use **Re-run jobs** na execução mais recente.
 
 Após novas alterações, envie-as com:
 
