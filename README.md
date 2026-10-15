@@ -33,6 +33,9 @@ Não há dependências externas, processo de compilação ou JavaScript.
 biblioteca-unifecaf/
 ├── index.html
 ├── README.md
+├── .github/
+│   └── workflows/
+│       └── pages.yml
 ├── css/
 │   └── style.css
 └── assets/
@@ -121,11 +124,15 @@ senha ou token nos comandos, arquivos do projeto ou repositório.
 
 ### 3. Ativar o GitHub Pages
 
-1. Abra o repositório no GitHub e acesse **Settings**.
+1. Abra `https://github.com/SEU-USUARIO/biblioteca-unifecaf` e acesse **Settings**.
 2. No menu lateral, abra **Pages**.
-3. Em **Build and deployment**, escolha **Deploy from a branch**.
-4. Selecione a branch `main` e a pasta `/(root)`, depois clique em **Save**.
-5. Aguarde a publicação. O endereço será `https://SEU-USUARIO.github.io/biblioteca-unifecaf/`.
+3. Em **Build and deployment**, escolha **GitHub Actions** como fonte de publicação.
+4. Acesse **Actions**, abra o workflow **Publicar site no GitHub Pages** e clique em **Re-run jobs** para repetir a primeira publicação.
+5. Quando a execução terminar com sucesso, o endereço será `https://SEU-USUARIO.github.io/biblioteca-unifecaf/`.
+
+O workflow em `.github/workflows/pages.yml` publica automaticamente o site a cada
+envio para a branch `main`. A primeira execução requer que uma pessoa com acesso
+de administrador ative **GitHub Actions** como fonte na configuração **Pages**.
 
 Após novas alterações, envie-as com:
 
