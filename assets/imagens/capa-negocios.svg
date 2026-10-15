@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="340" viewBox="0 0 260 340" fill="none">
+  <path d="M16 0h228v340H16z" fill="#D88750"/>
+  <path d="M16 0h13v340H16z" fill="#B86542"/>
+  <path d="M49 209c29-82 94-110 163-97-17 67-62 122-153 128" fill="#F2C96B"/>
+  <path d="M83 234c47-37 78-67 115-115" stroke="#FFF4DB" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="111" cy="206" r="12" fill="#2D5C58"/>
+  <circle cx="154" cy="165" r="12" fill="#2D5C58"/>
+  <path d="M52 0v340M29 22h202" stroke="#FFFFFF" stroke-opacity=".18"/>
+  <text x="47" y="62" fill="#FFF2D1" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="2">IDEIAS EM</text>
+  <text x="47" y="102" fill="#FFFDF5" font-family="Arial,sans-serif" font-size="27" font-weight="700">MOVIMENTO</text>
+  <text x="47" y="309" fill="#FFF2D1" font-family="Arial,sans-serif" font-size="8" letter-spacing=".7">CAIO NOGUEIRA</text>
+</svg>

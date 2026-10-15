@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Projeto acadêmico de uma biblioteca digital com livros de diferentes áreas do conhecimento."
+    />
+    <meta name="theme-color" content="#1765a3" />
+    <title>Biblioteca Digital | UniFECAF</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo principal</a>
+
+    <header class="site-header">
+      <div class="container header-content">
+        <a class="brand" href="#inicio" aria-label="Biblioteca Digital, início">
+          <span class="brand-mark" aria-hidden="true">u</span>
+          <span class="brand-name">Uni<span>FECAF</span><small>BIBLIOTECA DIGITAL</small></span>
+        </a>
+
+        <nav class="main-nav" aria-label="Navegação principal">
+          <a href="#acervo">Livros</a>
+          <a href="#categorias">Áreas</a>
+          <a href="#como-usar">Como usar</a>
+          <a href="#sobre">Sobre o projeto</a>
+        </nav>
+
+        <a class="button button-header" href="#acervo">
+          Ver livros <span aria-hidden="true">↓</span>
+        </a>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="container hero-layout">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-dot"></span> Projeto acadêmico · Design Web</p>
+            <h1 id="hero-title">Um cantinho para descobrir sua próxima <span>leitura.</span></h1>
+            <p class="hero-description">
+              Seja bem-vindo à nossa biblioteca digital. Aqui você encontra sugestões de livros
+              acadêmicos organizadas por assunto para explorar com calma.
+            </p>
+            <a class="button search-button" href="#acervo">Dar uma olhada nos livros <span aria-hidden="true">↓</span></a>
+            <p class="search-hint">Trabalho de apresentação desenvolvido por Álvaro Sena.</p>
+            <div class="hero-proof">
+              <span class="proof-icon" aria-hidden="true">✦</span>
+              <p><strong>Aprenda no seu ritmo.</strong> A biblioteca está sempre com você.</p>
+            </div>
+          </div>
+
+          <div class="hero-art">
+            <div class="art-orbit orbit-one"></div>
+            <div class="art-orbit orbit-two"></div>
+            <div class="art-note note-top"><span aria-hidden="true">✳</span> novas ideias</div>
+            <img
+              src="assets/imagens/hero-livros.svg"
+              alt="Ilustração de livros, uma luminária e uma planta sobre uma mesa de estudos"
+              width="600"
+              height="520"
+            />
+            <div class="art-note note-bottom"><span aria-hidden="true">↗</span> seu espaço de descobrir</div>
+          </div>
+        </div>
+        <div class="hero-bottom" aria-hidden="true">
+          <span>LEIA</span><span>EXPLORE</span><span>TRANSFORME</span>
+        </div>
+      </section>
+
+      <section class="section featured-section" id="acervo" aria-labelledby="acervo-title">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow eyebrow-dark">Cinco títulos fictícios para começar</p>
+              <h2 id="acervo-title">Livros para <span>explorar</span></h2>
+              <p class="section-intro">
+                Veja a apresentação de cada título ou baixe uma pequena prévia demonstrativa.
+              </p>
+            </div>
+          </div>
+
+          <div class="book-grid">
+            <article class="book-card" id="livro-design">
+              <div class="book-cover cover-teal">
+                <img
+                  src="assets/imagens/capa-design.svg"
+                  alt="Capa fictícia do livro Formas de amanhã"
+                  width="260"
+                  height="340"
+                />
+              </div>
+              <div class="book-info">
+                <span class="book-category">Design</span>
+                <h3>Formas de amanhã</h3>
+                <p>Lia Monteiro</p>
+                <details class="book-details">
+                  <summary>Saiba mais</summary>
+                  <p>Uma estudante de design explora como pequenas escolhas visuais podem tornar os espaços da cidade mais acolhedores.</p>
+                  <span class="availability">Livro e autora fictícios · prévia para demonstração</span>
+                </details>
+                <a class="download-button" href="assets/previews/previa-formas-de-amanha.txt" download>
+                  <span aria-hidden="true">↓</span> Baixar prévia fictícia
+                </a>
+              </div>
+            </article>
+            <article class="book-card" id="livro-negocios">
+              <div class="book-cover cover-orange">
+                <img
+                  src="assets/imagens/capa-negocios.svg"
+                  alt="Capa fictícia do livro Ideias em movimento"
+                  width="260"
+                  height="340"
+                />
+              </div>
+              <div class="book-info">
+                <span class="book-category">Negócios</span>
+                <h3>Ideias em movimento</h3>
+                <p>Caio Nogueira</p>
+                <details class="book-details">
+                  <summary>Saiba mais</summary>
+                  <p>Um pequeno projeto de bairro vira uma jornada de planejamento, colaboração e criatividade.</p>
+                  <span class="availability">Livro e autor fictícios · prévia para demonstração</span>
+                </details>
+                <a class="download-button" href="assets/previews/previa-ideias-em-movimento.txt" download>
+                  <span aria-hidden="true">↓</span> Baixar prévia fictícia
+                </a>
+              </div>
+            </article>
+            <article class="book-card" id="livro-psicologia">
+              <div class="book-cover cover-lilac">
+                <img
+                  src="assets/imagens/capa-psicologia.svg"
+                  alt="Capa fictícia do livro O mapa dos hábitos"
+                  width="260"
+                  height="340"
+                />
+              </div>
+              <div class="book-info">
+                <span class="book-category">Psicologia</span>
+                <h3>O mapa dos hábitos</h3>
+                <p>Nina Duarte</p>
+                <details class="book-details">
+                  <summary>Saiba mais</summary>
+                  <p>Uma pesquisadora iniciante observa as rotinas do dia a dia e descobre como elas influenciam o bem-estar.</p>
+                  <span class="availability">Livro e autora fictícios · prévia para demonstração</span>
+                </details>
+                <a class="download-button" href="assets/previews/previa-mapa-dos-habitos.txt" download>
+                  <span aria-hidden="true">↓</span> Baixar prévia fictícia
+                </a>
+              </div>
+            </article>
+            <article class="book-card" id="livro-tecnologia">
+              <div class="book-cover cover-blue">
+                <img
+                  src="assets/imagens/capa-tecnologia.svg"
+                  alt="Capa fictícia do livro Entre linhas e códigos"
+                  width="260"
+                  height="340"
+                />
+              </div>
+              <div class="book-info">
+                <span class="book-category">Tecnologia</span>
+                <h3>Entre linhas e códigos</h3>
+                <p>Ravi Moreira</p>
+                <details class="book-details">
+                  <summary>Saiba mais</summary>
+                  <p>Do primeiro algoritmo a um aplicativo para a comunidade: uma introdução leve ao pensamento computacional.</p>
+                  <span class="availability">Livro e autor fictícios · prévia para demonstração</span>
+                </details>
+                <a class="download-button" href="assets/previews/previa-entre-linhas-e-codigos.txt" download>
+                  <span aria-hidden="true">↓</span> Baixar prévia fictícia
+                </a>
+              </div>
+            </article>
+            <article class="book-card" id="livro-educacao">
+              <div class="book-cover cover-green">
+                <img
+                  src="assets/imagens/capa-educacao.svg"
+                  alt="Capa fictícia do livro A sala das descobertas"
+                  width="260"
+                  height="340"
+                />
+              </div>
+              <div class="book-info">
+                <span class="book-category">Educação</span>
+                <h3>A sala das descobertas</h3>
+                <p>Bia Campos</p>
+                <details class="book-details">
+                  <summary>Saiba mais</summary>
+                  <p>Uma professora e sua turma transformam perguntas curiosas em projetos de aprendizagem.</p>
+                  <span class="availability">Livro e autora fictícios · prévia para demonstração</span>
+                </details>
+                <a class="download-button" href="assets/previews/previa-sala-das-descobertas.txt" download>
+                  <span aria-hidden="true">↓</span> Baixar prévia fictícia
+                </a>
+              </div>
+            </article>
+          </div>
+          <p class="catalog-note">
+            <span aria-hidden="true">ⓘ</span> Livros, autores, capas e arquivos são fictícios e foram criados apenas para esta prévia acadêmica.
+          </p>
+        </div>
+      </section>
+
+      <section class="category-section" id="categorias" aria-labelledby="categorias-title">
+        <div class="container category-layout">
+          <div class="category-copy">
+            <p class="eyebrow eyebrow-dark">Escolha um assunto</p>
+            <h2 id="categorias-title">Por onde você quer <span>começar?</span></h2>
+            <p>
+              Esta seleção é pequena, mas cada livro pode abrir uma porta para novos temas.
+            </p>
+          </div>
+          <div class="category-grid">
+            <a class="category-tile tile-green" href="#livro-design">
+              <span class="category-icon" aria-hidden="true">✳</span><span>Design</span><span aria-hidden="true">↓</span>
+            </a>
+            <a class="category-tile tile-yellow" href="#livro-negocios">
+              <span class="category-icon" aria-hidden="true">⌘</span><span>Negócios</span><span aria-hidden="true">↓</span>
+            </a>
+            <a class="category-tile tile-purple" href="#livro-psicologia">
+              <span class="category-icon" aria-hidden="true">◉</span><span>Psicologia</span><span aria-hidden="true">↓</span>
+            </a>
+            <a class="category-tile tile-blue" href="#livro-tecnologia">
+              <span class="category-icon" aria-hidden="true">⌬</span><span>Tecnologia</span><span aria-hidden="true">↓</span>
+            </a>
+            <a class="category-tile tile-rose" href="#livro-educacao">
+              <span class="category-icon" aria-hidden="true">✎</span><span>Educação</span><span aria-hidden="true">↓</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section services-section" id="como-usar" aria-labelledby="servicos-title">
+        <div class="container">
+          <div class="section-heading services-heading">
+            <div>
+              <p class="eyebrow eyebrow-dark">Como usar</p>
+              <h2 id="servicos-title">A biblioteca é bem <span>simples.</span></h2>
+            </div>
+            <p class="section-intro">Uma demonstração de navegação feita para este trabalho.</p>
+          </div>
+          <div class="service-grid">
+            <article class="service-card">
+              <span class="service-icon icon-mint" aria-hidden="true">▤</span>
+              <h3>Escolha um tema</h3>
+              <p>Use as áreas para pular até um livro que tenha chamado sua atenção.</p>
+            </article>
+            <article class="service-card">
+              <span class="service-icon icon-lilac" aria-hidden="true">↻</span>
+              <h3>Conheça o livro</h3>
+              <p>Abra “Saiba mais” para ler uma breve apresentação de cada título.</p>
+            </article>
+            <article class="service-card">
+              <span class="service-icon icon-peach" aria-hidden="true">⌕</span>
+              <h3>Explore por aqui</h3>
+              <p>Todo o conteúdo desta versão está nesta página, sem sair do site.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section" id="sobre" aria-labelledby="sobre-title">
+        <div class="container about-layout">
+          <div class="about-stamp" aria-hidden="true"><span>IDEIAS</span><strong>+</strong><span>FUTURO</span></div>
+          <div class="about-copy">
+            <p class="eyebrow">Trabalho da disciplina Design Web</p>
+            <h2 id="sobre-title">Uma biblioteca feita para <span>apresentar.</span></h2>
+            <p>
+              Este projeto demonstra uma página de biblioteca construída com HTML e CSS.
+              Os livros são exemplos visuais e não representam um catálogo ou serviço oficial.
+            </p>
+            <p class="creator-credit">Criado por <strong>Álvaro Sena</strong></p>
+          </div>
+          <div class="about-decoration" aria-hidden="true">“</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-top">
+        <a class="brand footer-brand" href="#inicio" aria-label="UniFECAF Biblioteca, voltar ao início">
+          <span class="brand-mark" aria-hidden="true">u</span>
+          <span class="brand-name">Uni<span>FECAF</span><small> BIBLIOTECA DIGITAL</small></span>
+        </a>
+        <p>Projeto acadêmico · Desenvolvido por Álvaro Sena</p>
+        <a class="footer-link" href="#inicio">Voltar ao início <span aria-hidden="true">↑</span></a>
+      </div>
+      <div class="container footer-bottom">
+        <span>Biblioteca Digital UniFECAF · Trabalho de apresentação</span>
+        <a href="#inicio">Voltar ao topo ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>

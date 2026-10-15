@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="340" viewBox="0 0 260 340" fill="none">
+  <path d="M16 0h228v340H16z" fill="#8777A5"/>
+  <path d="M16 0h13v340H16z" fill="#65577F"/>
+  <circle cx="157" cy="221" r="69" fill="#D5C6E4"/>
+  <circle cx="157" cy="221" r="46" fill="#EDB875"/>
+  <circle cx="157" cy="221" r="22" fill="#8777A5"/>
+  <path d="M157 152v23m0 92v23m-69-69h23m92 0h23m-118-49 17 17m65 65 17 17m0-99-17 17m-65 65-17 17" stroke="#FFF7E6" stroke-width="5" stroke-linecap="round"/>
+  <path d="M52 0v340M29 22h202" stroke="#FFFFFF" stroke-opacity=".17"/>
+  <text x="47" y="60" fill="#F1E8FA" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="2">O MAPA DOS</text>
+  <text x="47" y="101" fill="#FFFDF5" font-family="Arial,sans-serif" font-size="28" font-weight="700">HÁBITOS</text>
+  <text x="47" y="309" fill="#F1E8FA" font-family="Arial,sans-serif" font-size="9" letter-spacing="1">NINA DUARTE</text>
+</svg>

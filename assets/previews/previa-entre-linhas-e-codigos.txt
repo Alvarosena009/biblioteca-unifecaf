@@ -1,0 +1,16 @@
+PRÉVIA FICTÍCIA — BIBLIOTECA DIGITAL UNIFECAF
+
+Título: Entre linhas e códigos
+Autor: Ravi Moreira
+Categoria: Tecnologia
+
+Esta é uma amostra fictícia criada exclusivamente para demonstrar o botão de
+download do projeto acadêmico de Álvaro Sena. Não é um livro completo nem uma
+publicação real.
+
+Início da prévia:
+
+Ravi queria criar uma página para organizar as trocas de livros do bairro. Antes
+de escrever qualquer código, conversou com os vizinhos e desenhou as telas em
+papel. Cada conversa trouxe uma ideia nova; cada rascunho ajudou a transformar
+uma necessidade real em um pequeno projeto.

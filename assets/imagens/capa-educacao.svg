@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="340" viewBox="0 0 260 340" fill="none">
+  <path d="M16 0h228v340H16z" fill="#4779A5"/>
+  <path d="M16 0h13v340H16z" fill="#315878"/>
+  <path d="M51 199c34-51 77-75 139-72-14 52-47 91-111 104" fill="#D6E6AA"/>
+  <path d="M69 229c39-30 70-57 104-94" stroke="#FFF6D9" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="100" cy="204" r="11" fill="#E7AA62"/>
+  <circle cx="147" cy="163" r="11" fill="#E7AA62"/>
+  <path d="M52 0v340M29 22h202" stroke="#FFFFFF" stroke-opacity=".17"/>
+  <text x="47" y="61" fill="#E8F3C8" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1.5">A SALA DAS</text>
+  <text x="47" y="101" fill="#FFFDF5" font-family="Arial,sans-serif" font-size="22" font-weight="700">DESCOBERTAS</text>
+  <text x="47" y="309" fill="#E8F3C8" font-family="Arial,sans-serif" font-size="9" letter-spacing="1">BIA CAMPOS</text>
+</svg>
